@@ -1,0 +1,77 @@
+:root {
+    --content-width: 874px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 70px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo-title {
+    width: 100px;
+}
+
+.logo-wrapper {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.main {
+    background-image: url("assets/hero.png");
+    height: 906px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: var(--content-width);
+    margin: 0 auto;
+}
+
+.link-nav + .link-nav {
+    margin-left: 25px;
+}
+
+.arrow-down {
+    background-image: url("assets/Group 10.png");
+    width: 55px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    max-width: 700px;
+    color: #FFF;
+}
+
