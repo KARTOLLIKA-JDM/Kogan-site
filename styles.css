@@ -2,36 +2,47 @@
     --content-width: 874px;
 }
 
+@media (min-width: 1800px) {
+    :root {
+        --content-width: 1770px;
+    }
+}
+/*TODO разнести стили шрифтов и ресет в разные css файлы */
 body {
     margin: 0;
+    font-family: gilroy-regular;
 }
 
 h1 {
     font-size: 54px;
     line-height: 50px;
+    font-family: gilroy-medium;
 }
 
 h2 {
     font-size: 48px;
     line-height: 70px;
+    font-family: gilroy-medium;
 }
 
 p {
     font-size: 24px;
     line-height: 40px;
+    font-family: gilroy-light;
 }
+
 
 .logo {
     height: 50px;
 }
 
 .logo-title {
-    width: 100px;
 }
 
 .logo-wrapper {
     display: inline-flex;
     align-items: center;
+    flex-basis: 70px;
 }
 
 .nav-links {
